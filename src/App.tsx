@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import {TodoList} from './TodoList'
+import {TodoList} from './components/TodoList/TodoList'
+
 const initialTodos: Array<Todo> = [
   { text: "walk the dog", complete: true },
   { text: "write app", complete: false }
